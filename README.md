@@ -1,4 +1,4 @@
-# Adonis fullstack application
+# Adonis API 
 
 This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
 
@@ -16,16 +16,16 @@ This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
 Use the adonis command to install the blueprint
 
 ```bash
-adonis new yardstick
+npm install
 ```
 
-or manually clone the repo and then run `npm install`.
+Database : Postgresql
+npm version: 10.5.2
+node version: 21.7.3
+adonis version: 4.1
 
-
-### Migrations
-
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
+## Start
+```bash
+adonis serve --dev
 ```
+
